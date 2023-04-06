@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body class="body">
+    <section class="dashboard__section">
+        <div class='dashboard__wrapper'>
+            <div class='dashboard__menu-container'>
+
+                <a rel='noopener no-referrel nofollow' class='menu__container-link _link' href=''>
+                    <svg class='menu__container-icon' width="37px">
+                        <use href='./svg/sprite.svg#icon-setting'></use>
+                    </svg><span class="decorative-span"><span class="menu__title">Dashboard</span><span
+                            class="menu__version">v.01</span>
+                </a>
+                <nav class="menu__nav">
+                    <ul class='menu__list'>
+                        <li class='menu__item _list'>
+                            <a rel='noopener no-referrel nofollow' class='menu__link _link' href=''><svg
+                                    class='menu__icon'>
+                                    <use href='./svg/sprite.svg#icon-dashboard'></use>
+                                </svg>
+                                <h3 class="menu__item-title">Dashbord</h3>
+                            </a>
+                        </li>
+                        <li class='menu__item _list'>
+                            <a rel='noopener no-referrel nofollow' class='menu__link _link' href=''><svg
+                                    class='menu__icon'>
+                                    <use href='./svg/sprite.svg#icon-product'></use>
+                                </svg>
+                                <h3 class="menu__item-title">Product</h3> <svg class='arrow__icon'>
+                                    <use href='./svg/sprite.svg#icon-arrow'></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class='menu__item _list'>
+                            <a rel='noopener no-referrel nofollow' class='menu__link active _link' href=''><svg
+                                    class='menu__icon'>
+                                    <use href='./svg/sprite.svg#icon-customers'></use>
+                                </svg>
+                                <h3 class="menu__item-title">Customers</h3> <svg class='arrow__icon '>
+                                    <use href='./svg/sprite.svg#icon-arrow'></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class='menu__item _list'>
+                            <a rel='noopener no-referrel nofollow' class='menu__link _link' href=''><svg
+                                    class='menu__icon'>
+                                    <use href='./svg/sprite.svg#icon-income'></use>
+                                </svg>
+                                <h3 class="menu__item-title">Income</h3> <svg class='arrow__icon'>
+                                    <use href='./svg/sprite.svg#icon-arrow'></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class='menu__item _list'>
+                            <a rel='noopener no-referrel nofollow' class='menu__link _link' href=''><svg
+                                    class='menu__icon'>
+                                    <use href='./svg/sprite.svg#icon-promote'></use>
+                                </svg>
+                                <h3 class="menu__item-title">Promote</h3> <svg class='arrow__icon'>
+                                    <use href='./svg/sprite.svg#icon-arrow'></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class='menu__item _list'>
+                            <a rel='noopener no-referrel nofollow' class='menu__link _link' href=''><svg
+                                    class='menu__icon'>
+                                    <use href='./svg/sprite.svg#icon-help'></use>
+                                </svg>
+                                <h3 class="menu__item-title">Help</h3> <svg class='arrow__icon'>
+                                    <use href='./svg/sprite.svg#icon-arrow'></use>
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class='menu__customer-container'>
+                    <img class='menu__customer-img' width="42" src="./img/customer.jpg" alt="customer img">
+                    <div class='menu__customer-data'>
+                        <p class='menu__customer-name'>Evano</p>
+                        <p class='menu__customer-value'>Project Manager</p>
+                    </div>
+                </div>
+            </div>
+            <div class='dashboard__product-container'>
+
+                <div class='product__welcome'>
+
+                    <p class='product-title'>Hello <span class="product__user-name">Evano</span> 👋🏼,</p>
+
+                </div>
+                <div class="menu__burger">
+                    <span class="burger-span"></span>
+                </div>
+                <div class='product__dashboard'>
+                    <div class='product__dashboard-decorative-container'>
+                        <div class='product__dashboard-customers-container'>
+                            <p class='product__dashboard-customers'>All Customers</p>
+                            <p class='product__dashboard-active'>Active Members</p>
+                        </div>
+                        <div class='product__search-continer'>
+                            <form>
+                                <input class='product__search-form' type="text" placeholder="Search">
+                                <button type='submit' class='product__search-btn'>
+                                    <svg class='product__search-icon'>
+                                        <use href='./svg/sprite.svg#icon-search'></use>
+                                    </svg>
+                                </button>
+
+                            </form>
+
+                        </div>
+                    </div>
+                    <div class='product__dashboard-list'>
+                        <table class="product__dashboard-table">
+                            <tbody class="tbody">
+                                <tr class="product__thead">
+                                    <td class="product__th customer_name__th">Customer Name</td>
+                                    <td class="product__th company__th">Company</td>
+                                    <td class="product__th phone-number__th">Phone Number</td>
+                                    <td class="product__th email__th">Email</td>
+                                    <td class="product__th country__th">Country</td>
+                                    <td class="product__th status__th">Status</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <div class='product__data-container'>
+                            <p class='product__data-description'>Showing data <span
+                                    class="product__entries-first-value">1</span> to
+                                <span class="product__entries-second-value">8</span> of
+                                <span class="product__entries-all-value">256K</span> entries
+                            </p>
+                            <div class='product__data-list-container'>
+                                <a rel='noopener no-referrel nofollow' class='product__data-number _link'
+                                    href=''>&#10094;</a>
+                                <a rel='noopener no-referrel nofollow'
+                                    class='product__data-number _link active-data-number' href=''>1</a>
+                                <a rel='noopener no-referrel nofollow' class='product__data-number _link' href=''>2</a>
+                                <a rel='noopener no-referrel nofollow' class='product__data-number _link' href=''>3</a>
+                                <a rel='noopener no-referrel nofollow' class='product__data-number _link' href=''>4</a>
+                                <a rel='noopener no-referrel nofollow' class='product__data-list _link' href=''>...</a>
+                                <a rel='noopener no-referrel nofollow' class='product__data-number _link' href=''>40</a>
+                                <a rel='noopener no-referrel nofollow' class='product__data-number _link'
+                                    href=''>&#10095; </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- 
+                <div class='product__statistic-container'>
+                    <ul class='product__statistic-list'>
+                        <li class='product__statistic-item _list'>
+                            <svg class='product__statistic-icon'>
+                                <use href='./svg/sprite.svg#'></use>
+                            </svg>
+                            <div class='product__statistic-docorative-container'>
+                                <p class='product__statistic-title'></p>
+                                <p class='product__statistic-value'></p>
+                                <div class='statistic-docorative-container'>
+                                    <svg class='statistic__icon'>
+                                        <use href='./svg/sprite.svg#'></use>
+                                    </svg>
+                                    <p class='product__statistic-change'><span
+                                            class='product__statistic-change-value'>16%</span>this month</p>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+
+                </div> -->
+            </div>
+        </div>
+    </section>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+    <script src="./customers.js"></script>
+    <script src="./mobile-menu.js"></script>
+</body>
+
+</html>

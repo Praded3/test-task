@@ -1,0 +1,49 @@
+.body {
+  background-color: $primery-bgc;
+  font-family: $primery_font;
+}
+
+.dashboard__wrapper {
+  display: flex;
+  //   padding: 77px 126px;
+  border-radius: 20px;
+}
+@media screen and (max-width: 767px) {
+  .dashboard__section {
+    // padding-top: 17px;
+    padding-bottom: 17px;
+  }
+  .dashboard__wrapper {
+    width: 100%;
+    padding: 0 10px;
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: column;
+  }
+}
+@media screen and (min-width: 768px) {
+  .dashboard__wrapper {
+    flex-basis: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .dashboard__section {
+    padding-top: 17px;
+    padding-bottom: 17px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .dashboard__wrapper {
+    flex-basis: 100%;
+    padding: 0 20px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .dashboard__wrapper {
+    width: 1440px;
+  }
+  .dashboard__section {
+    padding-top: 77px;
+    padding-bottom: 77px;
+  }
+}
