@@ -1,21 +1,21 @@
 /*
-Error: Undefined variable: "$primery-text-color".
-        on line 13 of D:\prog\test-task\sass\mobile-menu.scss
+Error: Undefined variable: "$secondary-bgc".
+        on line 172 of D:\prog\test-task\sass\product.scss
 
-8:     right: 35px;
-9:     top: 29px;
-10:   }
-11:   .menu__burger span {
-12:     position: absolute;
-13:     background-color: $primery-text-color;
-14:     position: absolute;
-15:     left: 0;
-16:     width: 100%;
-17:     height: 2px;
-18:     top: 9px;
+167:     margin: 41px 0px 0px 71px;
+168:   }
+169: }
+170: 
+171: .product__dashboard {
+172:   background-color: $secondary-bgc;
+173:   box-shadow: 0px 10px 60px rgba(226, 236, 249, 0.5);
+174:   border-radius: 30px;
+175: }
+176: .product__dashboard-decorative-container {
+177:   display: flex;
 
 Backtrace:
-D:\prog\test-task\sass\mobile-menu.scss:13
+D:\prog\test-task\sass\product.scss:172
 D:/prog/koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/variable.rb:49:in `_perform'
 D:/prog/koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/node.rb:50:in `perform'
 D:/prog/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:402:in `visit_prop'
@@ -30,20 +30,6 @@ D:/prog/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:444:in 
 D:/prog/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:444:in `block in visit_rule'
 D:/prog/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
 D:/prog/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:442:in `visit_rule'
-D:/prog/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `visit'
-D:/prog/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
-D:/prog/koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `block in with_base'
-D:/prog/koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:135:in `with_frame'
-D:/prog/koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `with_base'
-D:/prog/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `visit'
-D:/prog/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
-D:/prog/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:52:in `map'
-D:/prog/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:52:in `visit_children'
-D:/prog/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:171:in `block in visit_children'
-D:/prog/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
-D:/prog/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:170:in `visit_children'
-D:/prog/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `block in visit'
-D:/prog/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:528:in `visit_media'
 D:/prog/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `visit'
 D:/prog/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
 D:/prog/koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `block in with_base'
@@ -76,4 +62,4 @@ D:/prog/koala/bin/sass:22:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$primery-text-color\".\A         on line 13 of D:\prog\test-task\sass\mobile-menu.scss\A \A 8:     right: 35px;\A 9:     top: 29px;\A 10:   }\A 11:   .menu__burger span {\A 12:     position: absolute;\A 13:     background-color: $primery-text-color;\A 14:     position: absolute;\A 15:     left: 0;\A 16:     width: 100%;\A 17:     height: 2px;\A 18:     top: 9px;"; }
+  content: "Error: Undefined variable: \"$secondary-bgc\".\A         on line 172 of D:\prog\test-task\sass\product.scss\A \A 167:     margin: 41px 0px 0px 71px;\A 168:   }\A 169: }\A 170: \A 171: .product__dashboard {\A 172:   background-color: $secondary-bgc;\A 173:   box-shadow: 0px 10px 60px rgba(226, 236, 249, 0.5);\A 174:   border-radius: 30px;\A 175: }\A 176: .product__dashboard-decorative-container {\A 177:   display: flex;"; }

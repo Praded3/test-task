@@ -1,21 +1,17 @@
 /*
-Error: Undefined variable: "$primery-text-color".
-        on line 13 of D:\prog\test-task\sass\mobile-menu.scss
+Error: Undefined variable: "$primery-bgc".
+        on line 2 of D:\prog\test-task\sass\dashbord.scss
 
-8:     right: 35px;
-9:     top: 29px;
-10:   }
-11:   .menu__burger span {
-12:     position: absolute;
-13:     background-color: $primery-text-color;
-14:     position: absolute;
-15:     left: 0;
-16:     width: 100%;
-17:     height: 2px;
-18:     top: 9px;
+1: .body {
+2:   background-color: $primery-bgc;
+3:   font-family: $primery_font;
+4: }
+5: 
+6: .dashboard__wrapper {
+7:   display: flex;
 
 Backtrace:
-D:\prog\test-task\sass\mobile-menu.scss:13
+D:\prog\test-task\sass\dashbord.scss:2
 D:/prog/koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/variable.rb:49:in `_perform'
 D:/prog/koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/node.rb:50:in `perform'
 D:/prog/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:402:in `visit_prop'
@@ -30,20 +26,6 @@ D:/prog/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:444:in 
 D:/prog/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:444:in `block in visit_rule'
 D:/prog/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
 D:/prog/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:442:in `visit_rule'
-D:/prog/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `visit'
-D:/prog/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
-D:/prog/koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `block in with_base'
-D:/prog/koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:135:in `with_frame'
-D:/prog/koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `with_base'
-D:/prog/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `visit'
-D:/prog/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
-D:/prog/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:52:in `map'
-D:/prog/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:52:in `visit_children'
-D:/prog/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:171:in `block in visit_children'
-D:/prog/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
-D:/prog/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:170:in `visit_children'
-D:/prog/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `block in visit'
-D:/prog/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:528:in `visit_media'
 D:/prog/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `visit'
 D:/prog/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
 D:/prog/koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `block in with_base'
@@ -76,4 +58,4 @@ D:/prog/koala/bin/sass:22:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$primery-text-color\".\A         on line 13 of D:\prog\test-task\sass\mobile-menu.scss\A \A 8:     right: 35px;\A 9:     top: 29px;\A 10:   }\A 11:   .menu__burger span {\A 12:     position: absolute;\A 13:     background-color: $primery-text-color;\A 14:     position: absolute;\A 15:     left: 0;\A 16:     width: 100%;\A 17:     height: 2px;\A 18:     top: 9px;"; }
+  content: "Error: Undefined variable: \"$primery-bgc\".\A         on line 2 of D:\prog\test-task\sass\dashbord.scss\A \A 1: .body {\A 2:   background-color: $primery-bgc;\A 3:   font-family: $primery_font;\A 4: }\A 5: \A 6: .dashboard__wrapper {\A 7:   display: flex;"; }
