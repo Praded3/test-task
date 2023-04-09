@@ -1,17 +1,21 @@
 /*
-Error: Undefined variable: "$secondary-bgc".
-        on line 2 of D:\prog\test-task\sass\menu.scss
+Error: Undefined variable: "$primery-text-color".
+        on line 21 of D:\prog\barberShop\sass\about.scss
 
-1: .dashboard__menu-container {
-2:   background-color: $secondary-bgc;
-3:   display: flex;
-4:   flex-direction: column;
-5:   border-bottom-left-radius: 20px;
-6:   border-top-left-radius: 20px;
-7:   @media screen and (max-width: 767px) {
+16: .hero__secondury-description {
+17:   font-weight: 400;
+18:   font-size: 14px;
+19:   line-height: 186%;
+20:   letter-spacing: 0.02em;
+21:   color: $primery-text-color;
+22:   margin-top: 20px;
+23: }
+24: @media screen and (max-width: 767px) {
+25:   .about__left-container {
+26:     display: none;
 
 Backtrace:
-D:\prog\test-task\sass\menu.scss:2
+D:\prog\barberShop\sass\about.scss:21
 D:/prog/koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/variable.rb:49:in `_perform'
 D:/prog/koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/node.rb:50:in `perform'
 D:/prog/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:402:in `visit_prop'
@@ -58,4 +62,4 @@ D:/prog/koala/bin/sass:22:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$secondary-bgc\".\A         on line 2 of D:\prog\test-task\sass\menu.scss\A \A 1: .dashboard__menu-container {\A 2:   background-color: $secondary-bgc;\A 3:   display: flex;\A 4:   flex-direction: column;\A 5:   border-bottom-left-radius: 20px;\A 6:   border-top-left-radius: 20px;\A 7:   @media screen and (max-width: 767px) {"; }
+  content: "Error: Undefined variable: \"$primery-text-color\".\A         on line 21 of D:\prog\barberShop\sass\about.scss\A \A 16: .hero__secondury-description {\A 17:   font-weight: 400;\A 18:   font-size: 14px;\A 19:   line-height: 186%;\A 20:   letter-spacing: 0.02em;\A 21:   color: $primery-text-color;\A 22:   margin-top: 20px;\A 23: }\A 24: @media screen and (max-width: 767px) {\A 25:   .about__left-container {\A 26:     display: none;"; }

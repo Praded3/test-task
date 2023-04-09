@@ -1,24 +1,49 @@
 /*
-Error: Undefined variable: "$secondary-bgc".
-        on line 172 of D:\prog\test-task\sass\product.scss
+Error: Undefined variable: "$primery-text-color".
+        on line 18 of D:\prog\mebli\sass\header.scss
 
-167:     margin: 41px 0px 0px 71px;
-168:   }
-169: }
-170: 
-171: .product__dashboard {
-172:   background-color: $secondary-bgc;
-173:   box-shadow: 0px 10px 60px rgba(226, 236, 249, 0.5);
-174:   border-radius: 30px;
-175: }
-176: .product__dashboard-decorative-container {
-177:   display: flex;
+13:       position: absolute;
+14:       height: 1px;
+15:       width: 100%;
+16: 
+17:       left: 0;
+18:       background-color: $primery-text-color;
+19:       @media screen and (max-width: 980px) {
+20:         top: 51px;
+21:       }
+22:       top: 61px;
+23:     }
 
 Backtrace:
-D:\prog\test-task\sass\product.scss:172
+D:\prog\mebli\sass\header.scss:18
 D:/prog/koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/variable.rb:49:in `_perform'
 D:/prog/koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/node.rb:50:in `perform'
 D:/prog/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:402:in `visit_prop'
+D:/prog/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `visit'
+D:/prog/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
+D:/prog/koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `block in with_base'
+D:/prog/koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:135:in `with_frame'
+D:/prog/koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `with_base'
+D:/prog/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `visit'
+D:/prog/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:444:in `block (2 levels) in visit_rule'
+D:/prog/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:444:in `map'
+D:/prog/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:444:in `block in visit_rule'
+D:/prog/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
+D:/prog/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:442:in `visit_rule'
+D:/prog/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `visit'
+D:/prog/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
+D:/prog/koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `block in with_base'
+D:/prog/koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:135:in `with_frame'
+D:/prog/koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `with_base'
+D:/prog/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `visit'
+D:/prog/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+D:/prog/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:52:in `map'
+D:/prog/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+D:/prog/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:171:in `block in visit_children'
+D:/prog/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
+D:/prog/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:170:in `visit_children'
+D:/prog/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+D:/prog/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:528:in `visit_media'
 D:/prog/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `visit'
 D:/prog/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
 D:/prog/koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `block in with_base'
@@ -62,4 +87,4 @@ D:/prog/koala/bin/sass:22:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$secondary-bgc\".\A         on line 172 of D:\prog\test-task\sass\product.scss\A \A 167:     margin: 41px 0px 0px 71px;\A 168:   }\A 169: }\A 170: \A 171: .product__dashboard {\A 172:   background-color: $secondary-bgc;\A 173:   box-shadow: 0px 10px 60px rgba(226, 236, 249, 0.5);\A 174:   border-radius: 30px;\A 175: }\A 176: .product__dashboard-decorative-container {\A 177:   display: flex;"; }
+  content: "Error: Undefined variable: \"$primery-text-color\".\A         on line 18 of D:\prog\mebli\sass\header.scss\A \A 13:       position: absolute;\A 14:       height: 1px;\A 15:       width: 100%;\A 16: \A 17:       left: 0;\A 18:       background-color: $primery-text-color;\A 19:       @media screen and (max-width: 980px) {\A 20:         top: 51px;\A 21:       }\A 22:       top: 61px;\A 23:     }"; }

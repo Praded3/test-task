@@ -1,8 +1,20 @@
-$primery-text-color: #292d32;
-$menu-text-color: #9197b3;
-$accent-text-color: #5932ea;
-$primery-bgc: #f7f4ff;
-$secondary-bgc: #ffffff;
-
+$primery-text-color: #1e2e36;
+$color_accent: #44c697;
+$color_white: #ffffff;
 $transition__stock: all 300ms linear;
-$primery_font: "Poppins", sans-serif;
+$primery_font: "Proxima Nova", sans-serif;
+$secondury_font: "Cuprum", sans-serif;
+$font-weight: 700;
+$line-height: 125%;
+$font-style: normal;
+
+body {
+  color: $primery-text-color;
+  font-family: $primery_font;
+  font-weight: $font-weight;
+  line-height: $line-height;
+  font-style: $font-style;
+}
+a {
+  color: $primery-text-color;
+}
