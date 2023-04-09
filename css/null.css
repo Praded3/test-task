@@ -12,8 +12,7 @@ ol {
   margin-bottom: 0;
   padding-left: 0; }
 
-img,
-svg {
+img {
   display: block; }
 
 address {
@@ -24,10 +23,5 @@ address {
 
 ._link {
   text-decoration: none; }
-
-button {
-  cursor: pointer;
-  display: flex;
-  flex-direction: row; }
 
 /*# sourceMappingURL=null.css.map */

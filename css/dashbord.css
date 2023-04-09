@@ -1,21 +1,17 @@
 /*
-Error: Undefined variable: "$color_white".
-        on line 29 of D:\prog\barberShop\sass\booking.scss
+Error: Undefined variable: "$primery-bgc".
+        on line 2 of D:\prog\test-task\sass\dashbord.scss
 
-24:   flex-direction: column;
-25: }
-26: .massage {
-27:   resize: none;
-28:   height: 76px;
-29:   color: $color_white;
-30: }
-31: .booking__btn {
-32:   margin-top: 44px;
-33:   font-weight: 600;
-34:   font-size: 12px;
+1: .body {
+2:   background-color: $primery-bgc;
+3:   font-family: $primery_font;
+4: }
+5: 
+6: .dashboard__wrapper {
+7:   display: flex;
 
 Backtrace:
-D:\prog\barberShop\sass\booking.scss:29
+D:\prog\test-task\sass\dashbord.scss:2
 D:/prog/koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/variable.rb:49:in `_perform'
 D:/prog/koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/node.rb:50:in `perform'
 D:/prog/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:402:in `visit_prop'
@@ -62,4 +58,4 @@ D:/prog/koala/bin/sass:22:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$color_white\".\A         on line 29 of D:\prog\barberShop\sass\booking.scss\A \A 24:   flex-direction: column;\A 25: }\A 26: .massage {\A 27:   resize: none;\A 28:   height: 76px;\A 29:   color: $color_white;\A 30: }\A 31: .booking__btn {\A 32:   margin-top: 44px;\A 33:   font-weight: 600;\A 34:   font-size: 12px;"; }
+  content: "Error: Undefined variable: \"$primery-bgc\".\A         on line 2 of D:\prog\test-task\sass\dashbord.scss\A \A 1: .body {\A 2:   background-color: $primery-bgc;\A 3:   font-family: $primery_font;\A 4: }\A 5: \A 6: .dashboard__wrapper {\A 7:   display: flex;"; }

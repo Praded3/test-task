@@ -15,8 +15,7 @@ ol {
   padding-left: 0;
 }
 
-img,
-svg {
+img {
   display: block;
 }
 
@@ -31,11 +30,3 @@ address {
 ._link {
   text-decoration: none;
 }
-
-button {
-  cursor: pointer;
-  display: flex;
-  flex-direction: row;
-}
-
-//
